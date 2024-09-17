@@ -151,6 +151,13 @@ async function embedDirectory(
 }
 
 // Embed niledatabase project
+await embedDirectory(
+  "~/workspaces/madaliou",
+  "typescript",
+  "madaliou_database",
+  "Madaliou Nile Project",
+  "https://github.com/niledatabase/niledatabase/tree/main/examples/quickstart/nextjs"
+);
 
 // await embedDirectory('dir', 'language','tenant', 'project','url')
 
